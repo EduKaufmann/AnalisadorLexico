@@ -4,7 +4,7 @@ import java.util.*;
 %standalone
 %line
 %column
-Code = www.[a-z0-9]
+Code = "http"[s]?":/""/www."[a-z0-9]+".com"[.]?[a-z0-9]*
 
 %{
  List<String> code = new ArrayList();
