@@ -1,10 +1,10 @@
 import java.util.*;
 %%
-%class html
+%class url
 %standalone
 %line
 %column
-Code = <[a-zA-Z]+>
+Code = www.[a-z0-9]
 
 %{
  List<String> code = new ArrayList();
