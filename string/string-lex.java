@@ -4,7 +4,7 @@ import java.util.*;
 %standalone
 %line
 %column
-St = 
+St = [\"](.)*[\"]
 
 %{
  List<String> st = new ArrayList();
