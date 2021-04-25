@@ -4,7 +4,7 @@ import java.util.*;
 %standalone
 %line
 %column
-CPF = [0-9]{3}[\.][0-9]{3}[\.][0-9]{3}[\.][0-9]{2}
+CPF = [0-9]{3,3}[\.][0-9]{3}[\.][0-9]{3}[\.][0-9]{2,2}
 
 %{
  List<String> cpf = new ArrayList();
