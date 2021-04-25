@@ -32,8 +32,8 @@ class html {
    * Translates characters to character classes
    */
   private static final String ZZ_CMAP_PACKED = 
-    "\12\0\1\0\1\4\1\4\1\4\42\0\12\2\2\0\1\1\1\0"+
-    "\1\3\2\0\32\2\6\0\32\2\12\0\1\4\u1fa2\0\1\4\1\4"+
+    "\12\0\1\0\1\5\1\5\1\5\41\0\1\4\14\0\1\1\1\0"+
+    "\1\3\2\0\32\2\6\0\32\2\12\0\1\5\u1fa2\0\1\5\1\5"+
     "\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\udfe6\0";
 
   /** 
@@ -47,10 +47,10 @@ class html {
   private static final int [] ZZ_ACTION = zzUnpackAction();
 
   private static final String ZZ_ACTION_PACKED_0 =
-    "\1\0\2\1\1\2\1\0\1\3";
+    "\1\0\2\1\1\2\1\0\1\3\2\0";
 
   private static int [] zzUnpackAction() {
-    int [] result = new int[6];
+    int [] result = new int[8];
     int offset = 0;
     offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
     return result;
@@ -75,10 +75,10 @@ class html {
   private static final int [] ZZ_ROWMAP = zzUnpackRowMap();
 
   private static final String ZZ_ROWMAP_PACKED_0 =
-    "\0\0\0\5\0\12\0\5\0\17\0\5";
+    "\0\0\0\6\0\14\0\6\0\22\0\30\0\36\0\14";
 
   private static int [] zzUnpackRowMap() {
-    int [] result = new int[6];
+    int [] result = new int[8];
     int offset = 0;
     offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
     return result;
@@ -101,11 +101,11 @@ class html {
   private static final int [] ZZ_TRANS = zzUnpackTrans();
 
   private static final String ZZ_TRANS_PACKED_0 =
-    "\1\2\1\3\2\2\1\4\7\0\1\5\4\0\1\5"+
-    "\1\6\1\0";
+    "\1\2\1\3\3\2\1\4\10\0\1\5\5\0\1\5"+
+    "\1\6\3\0\1\7\10\0\1\10\1\0";
 
   private static int [] zzUnpackTrans() {
-    int [] result = new int[20];
+    int [] result = new int[36];
     int offset = 0;
     offset = zzUnpackTrans(ZZ_TRANS_PACKED_0, offset, result);
     return result;
@@ -143,10 +143,10 @@ class html {
   private static final int [] ZZ_ATTRIBUTE = zzUnpackAttribute();
 
   private static final String ZZ_ATTRIBUTE_PACKED_0 =
-    "\1\0\1\11\1\1\1\11\1\0\1\11";
+    "\1\0\1\11\1\1\1\11\1\0\1\1\2\0";
 
   private static int [] zzUnpackAttribute() {
-    int [] result = new int[6];
+    int [] result = new int[8];
     int offset = 0;
     offset = zzUnpackAttribute(ZZ_ATTRIBUTE_PACKED_0, offset, result);
     return result;

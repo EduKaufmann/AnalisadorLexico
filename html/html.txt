@@ -1,6 +1,8 @@
 <teste>
 <Teste>
 <abc>
+<aaa></aaa>
+<asd></a>
 <ab
 <abc123>
 1>ab

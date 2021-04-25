@@ -4,7 +4,7 @@ import java.util.*;
 %standalone
 %line
 %column
-Code = <[a-zA-Z0-9]+>
+Code = <[a-zA-Z]+>(<"/"[a-zA-Z]+>)*
 
 %{
  List<String> code = new ArrayList();
