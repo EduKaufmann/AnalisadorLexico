@@ -32,8 +32,8 @@ class matricula {
    * Translates characters to character classes
    */
   private static final String ZZ_CMAP_PACKED = 
-    "\12\0\1\1\1\3\1\3\1\3\42\0\12\2\113\0\1\3\u1fa2\0"+
-    "\1\3\1\3\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\udfe6\0";
+    "\12\0\1\0\1\4\1\4\1\4\22\0\1\2\14\0\1\3\2\0"+
+    "\12\1\113\0\1\4\u1fa2\0\1\4\1\4\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\udfe6\0";
 
   /** 
    * Translates characters to character classes
@@ -46,10 +46,10 @@ class matricula {
   private static final int [] ZZ_ACTION = zzUnpackAction();
 
   private static final String ZZ_ACTION_PACKED_0 =
-    "\1\0\2\1\1\2\10\0\1\3";
+    "\1\0\2\1\1\2\13\0\1\3";
 
   private static int [] zzUnpackAction() {
-    int [] result = new int[13];
+    int [] result = new int[16];
     int offset = 0;
     offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
     return result;
@@ -74,11 +74,11 @@ class matricula {
   private static final int [] ZZ_ROWMAP = zzUnpackRowMap();
 
   private static final String ZZ_ROWMAP_PACKED_0 =
-    "\0\0\0\4\0\10\0\4\0\14\0\20\0\24\0\30"+
-    "\0\34\0\40\0\44\0\50\0\4";
+    "\0\0\0\5\0\12\0\5\0\17\0\24\0\31\0\36"+
+    "\0\43\0\50\0\55\0\62\0\67\0\74\0\101\0\5";
 
   private static int [] zzUnpackRowMap() {
-    int [] result = new int[13];
+    int [] result = new int[16];
     int offset = 0;
     offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
     return result;
@@ -101,12 +101,13 @@ class matricula {
   private static final int [] ZZ_TRANS = zzUnpackTrans();
 
   private static final String ZZ_TRANS_PACKED_0 =
-    "\1\2\1\3\1\2\1\4\6\0\1\5\3\0\1\6"+
-    "\3\0\1\7\3\0\1\10\3\0\1\11\3\0\1\12"+
-    "\3\0\1\13\3\0\1\14\3\0\1\15\1\0";
+    "\1\2\1\3\2\2\1\4\7\0\1\5\3\0\1\6"+
+    "\4\0\1\7\4\0\1\10\4\0\1\11\4\0\1\12"+
+    "\4\0\1\13\4\0\1\14\4\0\1\15\4\0\1\16"+
+    "\6\0\1\17\2\0\1\20\3\0";
 
   private static int [] zzUnpackTrans() {
-    int [] result = new int[44];
+    int [] result = new int[70];
     int offset = 0;
     offset = zzUnpackTrans(ZZ_TRANS_PACKED_0, offset, result);
     return result;
@@ -144,10 +145,10 @@ class matricula {
   private static final int [] ZZ_ATTRIBUTE = zzUnpackAttribute();
 
   private static final String ZZ_ATTRIBUTE_PACKED_0 =
-    "\1\0\1\11\1\1\1\11\10\0\1\11";
+    "\1\0\1\11\1\1\1\11\13\0\1\11";
 
   private static int [] zzUnpackAttribute() {
-    int [] result = new int[13];
+    int [] result = new int[16];
     int offset = 0;
     offset = zzUnpackAttribute(ZZ_ATTRIBUTE_PACKED_0, offset, result);
     return result;
@@ -246,7 +247,7 @@ class matricula {
     char [] map = new char[0x110000];
     int i = 0;  /* index in packed string  */
     int j = 0;  /* index in unpacked array */
-    while (i < 58) {
+    while (i < 66) {
       int  count = packed.charAt(i++);
       char value = packed.charAt(i++);
       do map[j++] = value; while (--count > 0);

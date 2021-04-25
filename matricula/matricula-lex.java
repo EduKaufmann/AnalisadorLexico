@@ -4,7 +4,7 @@ import java.util.*;
 %standalone
 %line
 %column
-Numero = \n[0-9]{9}
+Numero = [0-9]{1}[\ ][0-9]{9}[\-][0-9]{1}
 
 %{
  List<String> numero = new ArrayList();
